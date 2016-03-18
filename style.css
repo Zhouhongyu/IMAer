@@ -1,0 +1,85 @@
+.nav,.footer{
+    width: auto;
+    height: 60px;
+    background-color:#333333 ;
+}
+/*顶部*/
+body{
+    background-color: #DEDEDE;
+    font-family: simhei;
+}
+.nav li{
+     float: right;
+     font-size: 10px;
+     position: relative;
+     margin-right: 8px;
+     top: -39px;
+     right:25px;
+ }
+/*总体*/
+a,a:link{
+    text-decoration: none;
+}
+
+.text1,.text2,.text3,.text4,.text5{
+    border: 1px ;
+    box-shadow: 5px 5px 5px gray;
+    display: block;
+    background-color: white;
+    margin: 15px;
+    padding:15px;
+}
+.text2_list{
+    list-style: none;
+}
+
+.text3 figure{
+    border: 1px solid;
+    text-align: center;
+    width: 25%;
+
+}
+.text3 figure img{
+    text-align: center;
+    width: 85%;
+}
+.text4_list li{
+    font-weight:700;
+    font-size: 1.2rem;
+}
+.text5_form{
+    position: relative;
+    left: 30%;
+}
+.text5_form input{
+    margin: 8px;
+}
+.text5_form label{
+    margin-right: 10px;
+}
+.pwd{
+    margin-right:80px ;
+}
+.text5_form textarea{
+    overflow-x:auto;
+    max-width: 55%;
+}
+
+.sub {
+    border-radius: 25px;
+    width:100%;
+    background: deepskyblue;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+ }
+/*中间*/
+.footer a{
+     position: relative;
+     left: 48%;
+     top: 40%;
+     color: white;
+ }
+
+/*底部*/
